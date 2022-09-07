@@ -1,0 +1,79 @@
+h2{
+    font-size: 30px;
+    line-height: 80px;
+    color: #ec008c;
+}
+body{
+    margin: 11;
+    padding: 11;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    color: #817777;
+    background-color: #fff;
+    line-height: 20px;
+}
+p{
+    text-align: justify;
+}
+/* para estilizar o id coloca-se antes do nome o #*/
+#logo{
+    color: #fff;
+    font-size: 24px;
+    padding-top: 11px;
+    float: right;
+}
+header{
+    background-color: black;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    float: right;
+    padding: 23px 7px 0 0;
+
+}
+/* tirar as bolinhas da ul da nav*/
+nav ul {
+    list-style-type: none;
+}
+/* cada link fique a esquerda do outro*/
+nav ul li{
+    float: left;
+    padding-left: 50px;
+}
+/* estilizar cada link*/
+nav ul li a{
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+    color: #ec008c;
+}
+img{
+    float: right;
+    padding: 3px 0 0 25px;
+};
+/* estilizar uma classe não esquecer de colocar o ponto */
+.principal{
+    width: 960px;
+    margin: 0;
+}
+.caixa{
+    float: left;
+    width: 280px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer{
+    clear: both;
+    background-color: #f8f8f8;
+    font-size: 10px;
+    color: #685d5d;
+    height: 46px;
+    border-top: 1px solid #ccc;
+    margin: 10px;
+}
